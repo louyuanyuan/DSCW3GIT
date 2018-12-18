@@ -1,0 +1,36 @@
+.condition-cont dl dt,
+.condition-cont dl dd {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+.condition-cont dl a {
+  cursor: pointer;
+}
+.condition-cont p.viewtypes a {
+  cursor: pointer;
+  margin-right: 2em !important;
+}
+.items img {
+  cursor: pointer;
+}
+.price {
+  color: orange;
+}
+.mapmarker {
+  width: 145px;
+  padding: 3px;
+}
+.mapmarker.food {
+  background: #e5dfa1;
+  border-radius: 4px;
+}
+.mapmarker.food i.icon {
+  color: green;
+}
+.mapmarker.movie {
+  background: #55acee;
+  border-radius: 4px;
+}
+.mapmarker.movie i.icon {
+  color: white;
+}
